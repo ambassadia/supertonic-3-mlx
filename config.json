@@ -1,0 +1,58 @@
+{
+  "model_type": "supertonic-3",
+  "library_name": "supertonic-3-mlx",
+  "base_model": "Supertone/supertonic-3",
+  "framework": "mlx",
+  "pipeline_tag": "text-to-speech",
+
+  "architectures": [
+    "DurationPredictor",
+    "TextEncoder",
+    "VectorEstimator",
+    "Vocoder"
+  ],
+
+  "sample_rate": 44100,
+  "num_languages": 31,
+  "supported_languages": [
+    "en", "fr", "de", "es", "it", "pt", "ja", "ko", "zh", "ru",
+    "pl", "nl", "tr", "ar", "hi", "vi", "th", "id", "cs", "ro",
+    "hu", "el", "da", "sv", "fi", "no", "he", "uk", "bg", "hr", "sk"
+  ],
+
+  "voices": {
+    "presets": ["F1", "F2", "F3", "F4", "F5", "M1", "M2", "M3", "M4", "M5"],
+    "custom": ["voix_sombre", "homme_moyen", "homme_clair"],
+    "total": 13
+  },
+
+  "inference": {
+    "euler_steps": 5,
+    "cfg_cond_scale": 4.0,
+    "cfg_uncond_scale": 3.0,
+    "default_seed": 99,
+    "supports_streaming": true,
+    "supports_voice_mixing": true
+  },
+
+  "performance_m4": {
+    "short_utterance_ms": 30,
+    "long_utterance_ms": 38,
+    "rtf_short": 76,
+    "rtf_long": 138,
+    "vs_onnx_sdk": "17-25x",
+    "vs_coreml": "2-3x"
+  },
+
+  "performance_m3_ultra": {
+    "rtf_short": 147,
+    "rtf_long": 185
+  },
+
+  "license": "openrail",
+  "license_link": "LICENSE",
+  "license_code": "Apache-2.0",
+  "license_code_link": "LICENSE-CODE",
+
+  "upstream_attribution": "Copyright (c) 2026 Supertone Inc."
+}
