@@ -1,0 +1,7 @@
+filename,language,voice,text,duration_s,mlx_ms_median,rtf_mlx,onnx_ms_median,rtf_onnx,speedup_mlx_over_onnx
+samples/en_F1_short.wav,en,F1,Hello world from Apple Silicon. Supertonic 3 runs at one hundred times real time.,2.786,36.6,76.2,1004.7,2.8,27.5
+samples/en_M1_long.wav,en,M1,"A gentle breeze moved through the open window while the children, still half-asleep, listened to the distant sound of the harbour bells.",3.901,38.4,101.7,1356.0,2.9,35.3
+samples/fr_F2.wav,fr,F2,"Bonjour, ceci est un test de synthèse vocale en français. Le modèle gère trente-et-une langues sur une puce M4.",3.413,37.9,90.1,1195.6,2.9,31.6
+samples/de_M2.wav,de,M2,"Guten Morgen. Dieses Modell läuft komplett auf Apple Silicon, ohne ONNX und ohne CoreML, in reinem MLX.",3.692,38.1,96.9,1313.9,2.8,34.5
+samples/ja_F3.wav,ja,F3,こんにちは。これはアップルシリコン上でMLXを使ったテストです。,1.463,32.1,45.6,848.4,1.7,26.4
+samples/es_M3.wav,es,M3,"Hola, esto es una prueba de síntesis de voz en español ejecutada en tiempo real sobre Apple Silicon.",2.856,37.0,77.2,1002.1,2.9,27.1
