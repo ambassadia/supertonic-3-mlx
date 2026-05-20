@@ -25,7 +25,7 @@ Flow:
 
 Public API:
 
-    pipe = SupertonicMLXPipeline.from_pretrained("/tmp/supertonic3/model")
+    pipe = SupertonicMLXPipeline.from_pretrained("ambassadia/supertonic-3-mlx")
     wav = pipe.generate("Hello world", voice="F1", lang="en")
     import soundfile as sf
     sf.write("out.wav", wav, pipe.sample_rate)

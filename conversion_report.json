@@ -2,8 +2,8 @@
   "models": [
     {
       "model": "VectorEstimator",
-      "onnx": "/tmp/supertonic3/model/onnx/vector_estimator.onnx",
-      "safetensors": "/Users/transcrilive/MLX_CONVERTOR/sub-projects/supertonic3-mlx/hf_release/weights/vector_estimator.safetensors",
+      "onnx": "vector_estimator.onnx",
+      "safetensors": "weights/vector_estimator.safetensors",
       "bytes": 256053073,
       "sha256": "2359240f2dcaee03b4800102aa0bea00223d2867ab752ef01af2b1cfaf92f3a6",
       "weights_kept": 351,
@@ -134,8 +134,8 @@
     },
     {
       "model": "TextEncoder",
-      "onnx": "/tmp/supertonic3/model/onnx/text_encoder.onnx",
-      "safetensors": "/Users/transcrilive/MLX_CONVERTOR/sub-projects/supertonic3-mlx/hf_release/weights/text_encoder.safetensors",
+      "onnx": "text_encoder.onnx",
+      "safetensors": "weights/text_encoder.safetensors",
       "bytes": 36022466,
       "sha256": "9df20bb79496718b36d2c0fc37636d3f78d6ef751b2899ff6dfeb975ae737ada",
       "weights_kept": 146,
@@ -145,8 +145,8 @@
     },
     {
       "model": "DurationPredictor",
-      "onnx": "/tmp/supertonic3/model/onnx/duration_predictor.onnx",
-      "safetensors": "/Users/transcrilive/MLX_CONVERTOR/sub-projects/supertonic3-mlx/hf_release/weights/duration_predictor.safetensors",
+      "onnx": "duration_predictor.onnx",
+      "safetensors": "weights/duration_predictor.safetensors",
       "bytes": 3470807,
       "sha256": "cd473acb6e0ac27426084488ccb3b3cc184e70d05db90897e2b892846db5dcb3",
       "weights_kept": 98,
@@ -156,8 +156,8 @@
     },
     {
       "model": "Vocoder",
-      "onnx": "/tmp/supertonic3/model/onnx/vocoder.onnx",
-      "safetensors": "/Users/transcrilive/MLX_CONVERTOR/sub-projects/supertonic3-mlx/hf_release/weights/vocoder.safetensors",
+      "onnx": "vocoder.onnx",
+      "safetensors": "weights/vocoder.safetensors",
       "bytes": 101364763,
       "sha256": "b2ec31ab7c554f6e15b9a6780554b5d3502345de7848b310966bfb4e1ea4e526",
       "weights_kept": 103,
